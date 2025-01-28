@@ -4,11 +4,11 @@ function Person (first, last, age, designation){
     this.age = age;
     this.designation = designation;
 }
-const myFather = new Person("Vinay", "Shukla", 51, "Corporate Employee");
+const myFather = new Person("Vinay", "Shukla", 45, "Corporate Employee");
 console.log(myFather);
-const myMother = new Person("Aarti", "Shukla", 48, "Teacher");
+const myMother = new Person("Aarti", "Shukla", 39, "Teacher");
 console.log(myMother);
-const myBrother = new Person("Satyam", "Shukla", 18, "Student");
+const myBrother = new Person("Satyam", "Shukla", 19, "Student");
 console.log(myBrother);
-const mySister = new Person("Pari", "Pandey", 16, "Student");
+const mySister = new Person("Pari", "Pandey", 11, "Student");
 console.log(mySister);
